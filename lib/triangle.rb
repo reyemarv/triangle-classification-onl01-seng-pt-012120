@@ -12,14 +12,13 @@ class Triangle
     if @length1 <= 0 || @length2 <= 0 || @length3 <= 0
       raise TriangleError
     else 
-      if @length1 == @length2 && @length2 == @length3 && @length1 == @length3
+    if @length1 == @length2 && @length2 == @length3 && @length1 == @length3
       :equilateral
     elsif 
-      @length1 == @length2 && @length1 != @length3 && @length2 == @length3
+      @length1 == @length3 && @length1 != @length3 && @length2 == @length3
       :isosceles 
     else 
-      @length1 == @length2 && @length2 == @length3 && @length1 == @length3
-      :equilateral
+
     end 
   end 
   end 
