@@ -19,6 +19,7 @@ class Triangle
     else 
       :equilateral
     end 
+  end 
   
   class TriangleError < StandardError
     
