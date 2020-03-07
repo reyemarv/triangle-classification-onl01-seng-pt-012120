@@ -1,6 +1,6 @@
 class Triangle
   
-  attr_acceossor :length1, :length2, :length3 
+  attr_accessor :length1, :length2, :length3 
   
   def initialize(length1, length2, length3)
     @length1 = length1
