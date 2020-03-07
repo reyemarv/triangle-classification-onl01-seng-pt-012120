@@ -22,6 +22,7 @@ class Triangle
       :equilateral
     end 
   end 
+  end 
   
   class TriangleError < StandardError
     
