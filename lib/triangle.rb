@@ -9,7 +9,14 @@ class Triangle
   end 
   
   def kind 
-    
+    if @length1 != @length2 || @length2 != @length3 || @length1 != @length3
+      :scalene
+    elsif 
+      @length1 == @length2 || @length1 != @length3
+      :isosceles 
+    else 
+      :equilateral
+    end 
   
   class TriangleError < StandardError
     
